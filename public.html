@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(5, 5, 54);
+        color: white;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        background-color: rgb(25, 25, 82);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(81, 81, 230);
+        font-size: 1.01rem;
+      }
+      main hr{
+        border: 0;
+        background-color: #457de4;
+        height: 1px;
+        margin: 30px 10px;
+      }
+      .left {
+        font-size: 1rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 80px 0;
+      }
+      .firstsection > div {
+        width: 30%;
+        margin: 10px;
+      }
+      .leftsection {
+        font-size: 2.5rem;
+      }
+      .leftsection .b1 {
+        background-color: rgb(78, 78, 176);
+        color: antiquewhite;
+        padding: 10px;
+        border: 2px solid rgb(75, 110, 174);
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .leftsection .b2 {
+        background-color: rgb(78, 78, 176);
+        color: antiquewhite;
+        padding: 10px;
+        border: 2px solid rgb(75, 110, 174);
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .rightsection img {
+        width: 90%;
+      }
+      .purple {
+        color: rgb(108, 108, 254);
+      }
+      .gray{
+        color: gray;
+      }
+      #element {
+        color: rgb(108, 108, 254);
+      }
+      .secondsection{
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+        /* background-color: rgb(7, 28, 86); */
+      }
+      .secondsection .box{
+        width: 90vw;
+        height: 2px;
+        border: 0;
+        margin: 40px 0;
+        display: flex;
+        background-color: white;
+      }
+      .secondsection .vertical{
+        width: 2px;
+        height: 50px;
+        background-color: white;
+        margin: 0 90px;
+      }
+      .vertical_title{
+        position: relative;
+        top: 60px;
+        width: 150px;
+      }
+      .vertical_des{
+        position: relative;
+        margin-top: 75px;
+        color: gray;
+        width: 150px;
+      }
+      footer{
+        background-color: rgb(59, 63, 118);
+        height: 170px;
+      }
+      .footer{
+        display: flex;
+        width: auto;
+        padding: 50px 10px;
+        justify-content: space-evenly;
+      }
+      footer > div{
+        width: 200px;
+      }
+      footer .footer_rights{
+        text-align: center;
+        color: gray;
+        width: 400px;
+        margin: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Portfolio</div>
+        <div class="right"></div>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, my name is <span class="purple">Tulsi</span>
+          <div>I am a passionate</div>
+          <div>Web developer</div>
+          <span id="element"></span>
+          <div class="button">
+            <button class="b1">Download Resume</button>
+            <button class="b2">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="image.png" />
+        </div>
+      </section>
+      <!-- new section -->
+      <hr>
+      <section class="secondsection">
+        <span class="gray">What have I done so far</span>
+        <h2>Past Experience</h2>
+        <div class="box">
+          <div class="vertical">
+            <div class="vertical_title">HTML DEVELOPER (2016-2017)</div>
+            <div class="vertical_des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil nostrum, aliquid eaque, autem sed deserunt temporibus natus nesciunt omnis aut, magnam totam ad?
+            </div>
+          </div>
+          <div class="vertical">
+            <div class="vertical_title">PYTHON (2016-2017)</div>
+            <div class="vertical_des">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor odit accusantium at error enim ut cupiditate iusto totam eius! Vero?</div>
+          </div>
+          <div class="vertical">
+            <div class="vertical_title">PYTHON (2016-2017)</div>
+            <div class="vertical_des">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor odit accusantium at error enim ut cupiditate iusto totam eius! Vero?</div>
+          </div>
+          <div class="vertical">
+            <div class="vertical_title">PYTHON (2016-2017)</div>
+            <div class="vertical_des">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor odit accusantium at error enim ut cupiditate iusto totam eius! Vero?</div>
+          </div>
+          <div class="vertical">
+            <div class="vertical_title">PYTHON (2016-2017)</div>
+            <div class="vertical_des">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor odit accusantium at error enim ut cupiditate iusto totam eius! Vero?</div>
+          </div>
+          <div class="vertical">
+            <div class="vertical_title">PYTHON (2016-2017)</div>
+            <div class="vertical_des">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor odit accusantium at error enim ut cupiditate iusto totam eius! Vero?</div>
+          </div>
+        </div>
+        
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer_first">
+         <h3 class="">Tulsi Prabhakar Vangari</h3>
+        </div>
+        <div class="footer_second">Contact: 8356801639</div>
+        <div class="footer_third">Address: Parel, Bhoiwada</div>
+        <div class="footer_four">Languaage: Hindi, English, Marathi, Telugu</div>
+    </div>
+    <div class="footer_rights">
+      www.tulsiportfolio.com  | All rights reserved
+    </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Writer", "Bioinformatician", "Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+
+  </body>
+</html>
